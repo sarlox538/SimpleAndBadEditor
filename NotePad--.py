@@ -8,7 +8,7 @@ def Get_Value():
             c = int(c)
             return c
         except ValueError:
-            break
+            print("Please Enter a Number")           
 def createfile():
     c = Get_Value()
     if c == 1:
